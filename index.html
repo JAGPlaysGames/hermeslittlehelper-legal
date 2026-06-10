@@ -1,21 +1,141 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HermesLittleHelper Legal Pages</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; max-width: 820px; margin: 40px auto; padding: 0 20px; color: #111827; }
-    h1 { color: #0f172a; }
-    a { color: #2563eb; }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JAGPlaysGamesHelper — Creator Publishing Tool</title>
+  <meta name="description" content="JAGPlaysGamesHelper is a private creator operations tool for preparing, managing, and publishing approved short-form gaming videos to connected social media accounts." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="JAGPlaysGamesHelper" />
+  <meta property="og:description" content="Private creator operations tool for approved gaming Shorts, Reels, and TikTok uploads." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://x1xjagx1x.github.io/JAGPlaysGamesHelper/" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <h1>HermesLittleHelper Legal Pages</h1>
-  <p>Legal pages for the private JAG Pixel / X1xJAGx1X creator publishing helper.</p>
-  <ul>
-    <li><a href="terms.html">Terms of Service</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-  </ul>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="JAGPlaysGamesHelper home">
+      <span class="brand-mark">J</span>
+      <span>JAGPlaysGamesHelper</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#purpose">Purpose</a>
+      <a href="index.html#tiktok">TikTok API Use</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Private creator operations app</div>
+      <h1>Approved gaming clips, published with creator control.</h1>
+      <p class="hero-copy">JAGPlaysGamesHelper helps the JAG Plays Games creator workflow prepare, review, and publish approved short-form gaming videos to connected social platforms, including TikTok when the creator authorizes access.</p>
+      <div class="cta-row">
+        <a class="button primary" href="#tiktok">Review TikTok integration</a>
+        <a class="button secondary" href="privacy.html">Read privacy policy</a>
+      </div>
+    </section>
+
+    <section class="section grid-two" id="purpose">
+      <div>
+        <div class="eyebrow">What this app does</div>
+        <h2>Built for one clear workflow: creator-approved publishing.</h2>
+      </div>
+      <div class="stack">
+        <p>JAGPlaysGamesHelper is a private tool used by JAG Plays Games / X1xJAGx1X to manage short-form gaming video operations. It supports organizing finished clips, preparing captions and metadata, checking video readiness, and sending approved uploads to authorized creator accounts.</p>
+        <p>The app is not a public social network, analytics marketplace, or data resale product. It is an internal publishing assistant for the creator’s own videos and accounts.</p>
+      </div>
+    </section>
+
+    <section class="section cards" aria-label="App capabilities">
+      <article class="card">
+        <span class="pill blue">Prepare</span>
+        <h3>Metadata and caption planning</h3>
+        <p>Create platform-appropriate titles, descriptions, captions, hashtags, and upload notes for gaming Shorts/Reels/TikToks.</p>
+      </article>
+      <article class="card">
+        <span class="pill pink">Review</span>
+        <h3>Approval-first workflow</h3>
+        <p>Videos are reviewed before posting. The app is designed around explicit creator approval before external publishing changes.</p>
+      </article>
+      <article class="card">
+        <span class="pill red">Publish</span>
+        <h3>Authorized account uploads</h3>
+        <p>When connected through OAuth, the app can upload or publish approved videos to the authorized creator account using official platform APIs.</p>
+      </article>
+    </section>
+
+    <section class="section grid-two" id="tiktok">
+      <div>
+        <div class="eyebrow">TikTok integration</div>
+        <h2>Limited API access for video upload and publishing.</h2>
+      </div>
+      <div class="stack">
+        <p>For TikTok, JAGPlaysGamesHelper requests only the permissions needed for creator authorization and content posting:</p>
+        <ul class="check-list">
+          <li><strong>user.info.basic</strong> — identifies the authorized TikTok creator account.</li>
+          <li><strong>video.upload</strong> — uploads approved videos to the creator’s TikTok publishing flow when available.</li>
+          <li><strong>video.publish</strong> — publishes approved videos where the creator account and TikTok API access allow it.</li>
+        </ul>
+        <p>The app does not request data portability permissions and does not use TikTok data for advertising, profiling, resale, or unrelated analytics.</p>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="eyebrow">Workflow</div>
+      <h2>How a TikTok post moves through the app</h2>
+      <div class="timeline">
+        <div class="step">
+          <span class="mono">01</span>
+          <h3>Creator prepares content</h3>
+          <p>A finished gaming clip is selected from the creator’s approved media library.</p>
+        </div>
+        <div class="step">
+          <span class="mono">02</span>
+          <h3>Caption and metadata are reviewed</h3>
+          <p>Title, description, hashtags, and publish settings are checked before upload.</p>
+        </div>
+        <div class="step">
+          <span class="mono">03</span>
+          <h3>TikTok authorization is used</h3>
+          <p>The creator signs in with TikTok OAuth and grants only the requested posting permissions.</p>
+        </div>
+        <div class="step">
+          <span class="mono">04</span>
+          <h3>Approved video is uploaded or published</h3>
+          <p>The app uses TikTok’s official API to submit the creator-approved video to the authorized account.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards two">
+      <article class="card">
+        <h3>Data handling summary</h3>
+        <p>The app stores configuration and OAuth tokens only for operating the creator’s connected accounts. Tokens are not sold or shared. Access can be revoked at any time from TikTok account settings or by contacting support.</p>
+        <a class="inline-link" href="privacy.html">Privacy policy →</a>
+      </article>
+      <article class="card">
+        <h3>Support and data deletion</h3>
+        <p>Creators can request help, disconnect instructions, or deletion of locally stored app records. The app also includes a dedicated deletion page for reviewers and users.</p>
+        <a class="inline-link" href="data-deletion.html">Data deletion instructions →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>JAGPlaysGamesHelper</strong>
+      <p>Private creator operations tool for JAG Plays Games / X1xJAGx1X.</p>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="data-deletion.html">Data deletion</a>
+    </div>
+  </footer>
 </body>
 </html>
