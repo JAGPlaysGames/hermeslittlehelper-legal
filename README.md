@@ -1,58 +1,31 @@
-# JAGPlaysGamesHelper website
+# X1xJAGx1X Content Studio approval website
 
-Static approval-support website for the TikTok developer app `JAGPlaysGamesHelper`.
+Static public website for the TikTok developer app **X1xJAGx1X Content Studio**.
 
-## Purpose
-
-TikTok rejected the app with reviewer note: `Website must be fully developed.` This site provides the missing public-facing information:
-
-- App purpose and workflow
-- TikTok API scopes and usage
-- Privacy Policy
-- Terms of Use
-- Support page
-- Data deletion instructions
-- OAuth callback information page
-- Robots and sitemap files
-
-## Suggested TikTok Developer Portal values
+## TikTok Developer Console values
 
 Website URL:
 
 ```text
-https://x1xjagx1x.github.io/JAGPlaysGamesHelper/
+https://jagplaysgames.github.io/hermeslittlehelper-legal/
 ```
 
 Privacy Policy URL:
 
 ```text
-https://x1xjagx1x.github.io/JAGPlaysGamesHelper/privacy.html
+https://jagplaysgames.github.io/hermeslittlehelper-legal/privacy.html
 ```
 
 Terms of Service URL:
 
 ```text
-https://x1xjagx1x.github.io/JAGPlaysGamesHelper/terms.html
+https://jagplaysgames.github.io/hermeslittlehelper-legal/terms.html
 ```
 
-OAuth redirect URI if TikTok requires a public HTTPS page:
+Login Kit Web Redirect URI:
 
 ```text
-https://x1xjagx1x.github.io/JAGPlaysGamesHelper/oauth/callback.html
+https://jagplaysgames.github.io/hermeslittlehelper-legal/tiktok/login/callback/
 ```
 
-Preferred local OAuth redirect URI for local setup helpers, if TikTok accepts it:
-
-```text
-http://localhost:8765/callback
-```
-
-## Suggested app description
-
-```text
-JAGPlaysGamesHelper is a private creator operations tool used by JAG Plays Games to prepare, manage, and publish approved short-form gaming videos to connected social media accounts. The app uses TikTok Login and TikTok’s Content Posting API only after account authorization, and only for creator-approved uploads.
-```
-
-## Deployment notes
-
-This directory is ready to publish as a GitHub Pages static site. Create a repository named `JAGPlaysGamesHelper`, copy these files into it, commit, push, and enable GitHub Pages from the repository settings.
+Recommended initial scope/product request: Login Kit with `user.info.basic` only. Request Content Posting API/webhooks later only when a production server endpoint and demo are ready.

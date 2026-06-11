@@ -52,12 +52,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
   color: white;
-  background: #171717;
-  font-weight: 600;
+  background: linear-gradient(135deg, #171717, #0a72ef 58%, #de1d8d);
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .nav { display: flex; align-items: center; gap: 22px; font-size: 14px; font-weight: 500; }
@@ -190,6 +191,7 @@ p, li {
 .legal-page h2 { margin-top: 48px; font-size: 30px; letter-spacing: -1.2px; }
 .legal-page .updated { font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; color: #666; }
 .legal-page code { padding: 2px 5px; border-radius: 4px; background: #f3f3f3; font-family: 'Geist Mono', ui-monospace, monospace; }
+.callback-box { overflow: auto; padding: 16px; border-radius: 10px; background: #111827; color: #f9fafb; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; line-height: 1.5; }
 
 .footer {
   display: flex;
